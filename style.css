@@ -1,0 +1,367 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#about .textbox {
+  padding: 0 50px;
+}
+#about .textbox h1 {
+  font-weight: 700;
+  font-size: 33px;
+  margin: 10px 0;
+}
+#about .textbox h3, #about .textbox p {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 20px 0;
+  color: #a8a8a8;
+  line-height: 1.6;
+}
+#about .textbox p {
+  font-size: 18px;
+  color: #8e7c7c;
+  line-height: 1.4;
+}
+#about .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#about .textbox .icon {
+  padding: 0 15px 0 0;
+  color: #5e5656;
+}
+#about .textbox h4 {
+  font-size: 18px;
+  color: #423737;
+}
+#about .imgbox {
+  width: 400px;
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+  #about .imgbox {
+    margin-top: 30px;
+  }
+  #about .textbox h1, #about .textbox h3, #about .textbox p {
+    text-align: start;
+    padding: 0;
+  }
+}
+
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0 0 10px;
+}
+#carefor .textbox h4 {
+  font-size: 24px;
+  color: #a8a8a8;
+}
+#carefor .imgbox {
+  width: 450px;
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+  #carefor .imgbox {
+    margin-top: 30px;
+  }
+}
+
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+#doggerblog h3 {
+  font-size: 18px;
+  margin: 30px 0 60px;
+}
+#doggerblog .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .textbox h2 {
+  font-size: 20px;
+  padding: 30px 0 0;
+}
+#doggerblog .textbox h4 {
+  font-size: 16px;
+  color: #aba8a8;
+}
+#doggerblog .textbox p {
+  font-size: 16px;
+  color: #8f8686;
+}
+#doggerblog .textbox p, #doggerblog .textbox h4 {
+  margin: 20px 0 0;
+}
+#doggerblog .imgbox {
+  border-radius: 20px;
+}
+#doggerblog .wid {
+  width: 580px;
+}
+@media (max-width: 767px) {
+  #doggerblog .wid h1, #doggerblog .wid h3 {
+    text-align: start;
+  }
+}
+
+#ourservices .wid {
+  width: 580px;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+#ourservices h3 {
+  font-size: 18px;
+  color: #c6c6c6;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 30px 50px;
+}
+#ourservices .textbox h2 {
+  font-size: 22px;
+  color: #757575;
+  margin: 20px 0 0;
+}
+#ourservices .textbox .icon {
+  font-size: 60px;
+}
+@media (max-width: 767px) {
+  #ourservices .wid h1, #ourservices .wid h3 {
+    text-align: start;
+  }
+}
+
+#ourtrainers h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  font-weight: 300;
+  font-size: 18px;
+  color: #a8a8a8;
+  margin: 20px 0;
+}
+#ourtrainers .box {
+  margin: 0 5px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box h2 {
+  font-weight: 300;
+  font-size: 23px;
+  padding: 20px 0 0;
+}
+#ourtrainers .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#ourtrainers .box ul li {
+  padding: 20px;
+  margin: 10px 0 10px 10px;
+  border-radius: 50%;
+  background-color: #d4cece;
+  width: 5px;
+  height: 5px;
+}
+#ourtrainers .box ul li .icon {
+  margin: -8px;
+}
+#ourtrainers .imgbox {
+  border-radius: 20px;
+}
+#ourtrainers .wid {
+  width: 580px;
+}
+@media (max-width: 767px) {
+  #ourtrainers .textbox h1, #ourtrainers .textbox h3 {
+    text-align: start;
+  }
+}
+
+#pricingtable .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricingtable .textbox h1 {
+  font-size: 33px;
+  font-weight: 700;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200;
+  font-size: 18px;
+  color: #000000;
+  margin: 20px 0 50px;
+}
+#pricingtable .box {
+  background-color: #708f97;
+  border-radius: 20px;
+  color: #fff;
+  width: 300px;
+  padding: 35px 40px;
+  text-align: center;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricingtable .box h4 {
+  font-size: 16px;
+  margin: 0 0 0 10px;
+  color: white;
+}
+#pricingtable .box .btn {
+  background-color: #2b383c;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 28px;
+  margin: 30px 0 0;
+}
+#pricingtable .PREMIUM-COLOR {
+  background-color: #2b383c;
+  border-radius: 20px;
+}
+#pricingtable .PREMIUM-COLOR .btn {
+  background-color: #708f97;
+}
+@media (max-width: 767px) {
+  #pricingtable .box {
+    margin-top: 30px;
+  }
+  #pricingtable .textbox {
+    text-align: start;
+  }
+}
+
+#questions .wid {
+  width: 500px;
+}
+#questions h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+#questions h3 {
+  font-size: 18px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 21px;
+  margin: 0 0 0 10px;
+  color: #717171;
+}
+#questions .textbox .minibox {
+  margin: 20px 0 0 0;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 18px;
+  margin: 30px 0 0 32px;
+  color: #949494;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .icon {
+  color: #d4cece;
+}
+#questions .icon i {
+  font-size: 22px;
+}
+#questions .bigicon i {
+  font-size: 30px;
+}
+#questions .imgbox {
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+  #questions .imgbox {
+    margin-top: 30px;
+  }
+  #questions .wid h1, #questions .wid h3 {
+    text-align: start;
+  }
+  #questions .textbox h4, #questions .textbox p {
+    text-align: start;
+  }
+}
+
+#welcome .textbox {
+  padding: 80px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+#welcome .textbox h3 {
+  color: #868686;
+  margin: 20px 0 40px;
+  font-size: 18px;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 31px;
+}
+#welcome .textbox h6 {
+  font-size: 16px;
+}
+#welcome .textbox .btn {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #a0c1c5;
+  color: white;
+}
+#welcome .imgbox {
+  border-radius: 20px;
+}
+#welcome .wid {
+  width: 580px;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  #welcome .imgbox {
+    margin-top: 30px;
+  }
+  #welcome .textbox h1, #welcome .textbox h3 {
+    text-align: start;
+  }
+  #welcome .textbox h2, #welcome .textbox h6 {
+    text-align: start;
+  }
+}/*# sourceMappingURL=style.css.map */
